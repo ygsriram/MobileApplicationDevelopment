@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Sapp</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutu">About U</string>
+    <string name="hint_email">Student ID</string>
+    <string name="btn_login">NEXT</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="ok">OK</string>
+</resources>

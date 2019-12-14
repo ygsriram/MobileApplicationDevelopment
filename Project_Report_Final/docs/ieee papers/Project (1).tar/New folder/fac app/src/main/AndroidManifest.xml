@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.nandan.myapplication">
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.SEND_SMS" />
+
+    <application
+        android:name=".setup.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/feedback_icon"
+        android:label="@string/app_name"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:replace="android:icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".setup.splashscreen"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".setup.getstarted"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".setup.id_validation"
+            android:launchMode="singleTop"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".setup.Login"
+            android:launchMode="singleTop"
+            android:label="Enter Your Password"
+            android:windowSoftInputMode="adjustPan" >
+        </activity>
+        <activity
+            android:name=".faculty.Action_About.Scroll_activity"
+            android:label="My Profile"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".faculty.MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+        <activity
+            android:name=".faculty.commentdisplay"
+            android:theme="@style/AppTheme.NoActionBar">
+        </activity>
+
+    </application>
+
+</manifest>

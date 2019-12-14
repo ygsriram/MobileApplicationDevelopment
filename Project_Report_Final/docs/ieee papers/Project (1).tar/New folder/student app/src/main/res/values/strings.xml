@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">A2E</string>
+    <string name="action_settings">Settings</string>
+    <string name="aboutu">My Profile</string>
+    <string name="hint_email">Student ID</string>
+    <string name="btn_login">NEXT</string>
+    <string name="welcome">Welcome</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="name">Fullname</string>
+    <string name="ok">OK</string>
+    <string name="NEXT">Next</string>
+    <string name="sem">Select Semester</string>
+    <string name="sec">Select Section</string>
+    <string name="classno">Select Room no</string>
+    <string name="commonname">common</string>
+    <string name="spinner_title">Pick your problem</string>
+    <string name="commonname1">common12</string>
+</resources>

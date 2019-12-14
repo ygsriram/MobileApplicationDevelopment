@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:id="@+id/cv"
+
+    app:cardUseCompatPadding="true">
+<RelativeLayout android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:background="@color/windowBackground"
+   >
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/imagefeedback"
+        android:id="@+id/img"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+    <TextView
+        android:id="@+id/sid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text = "hello"
+        android:textSize="15dp"
+        android:paddingLeft="20dp"
+        android:textStyle="bold"
+        android:layout_below="@+id/ratingBar12"
+        android:layout_toRightOf="@+id/img"
+        android:layout_toEndOf="@+id/img" />
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style = "?android:attr/ratingBarStyleSmall"
+        android:id="@+id/ratingBar12"
+        android:isIndicator="true"
+        android:clickable="false"
+        android:layout_marginLeft="20dp"
+        android:layout_toRightOf="@+id/img"
+        android:layout_toEndOf="@+id/img"
+        android:layout_alignParentTop="true"
+        android:focusableInTouchMode="false"
+        android:focusable="false"
+        />
+
+    <TextView
+        android:id="@+id/dropdown"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text = "hello"
+        android:textSize="15dp"
+        android:paddingLeft="20dp"
+        android:layout_below="@+id/sid"
+        android:layout_toRightOf="@+id/img"
+        android:layout_toEndOf="@+id/img" />
+
+
+
+
+
+
+</RelativeLayout>
+    </android.support.v7.widget.CardView>

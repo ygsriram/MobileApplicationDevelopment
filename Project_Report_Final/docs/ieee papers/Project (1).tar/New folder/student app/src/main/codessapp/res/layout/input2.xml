@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/login">
+
+    <LinearLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_background"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="100sp"
+            android:id="@+id/side"
+            android:paddingTop="20dp"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+            android:textColor="#0a0e5f" />
+
+
+        <EditText
+            android:layout_width="343dp"
+            android:layout_marginTop="60sp"
+            android:layout_height="wrap_content"
+            android:inputType="textVisiblePassword"
+            android:ems="10"
+            android:hint="Enter FTP"
+            android:paddingTop="10sp"
+            android:id="@+id/pwd1"
+            android:backgroundTintMode="screen"
+            android:layout_gravity="center_horizontal" />
+
+        <Button
+            android:layout_width="388sp"
+            android:layout_height="45sp"
+            android:text="Login  "
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:drawableRight="@drawable/next6"
+            android:background="@color/windowBackground"
+            android:id="@+id/login"
+            android:drawable="@android:color/holo_blue_bright"
+            android:layout_marginTop="210sp" />
+    </LinearLayout>
+</RelativeLayout>

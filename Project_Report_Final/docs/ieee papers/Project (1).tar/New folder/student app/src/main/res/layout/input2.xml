@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:showIn="@layout/login">
+
+    <RelativeLayout android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#ffffff"
+        android:paddingTop="10dp"
+        android:weightSum="1">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:id="@+id/side"
+            android:layout_marginLeft="30dp"
+            android:textSize="20sp"
+            android:textColor="#0a0e5f" />
+
+
+        <EditText
+            android:layout_width="340dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginLeft="30dp"
+            android:layout_height="wrap_content"
+            android:inputType="textVisiblePassword"
+            android:ems="10"
+            android:hint="Enter FTP"
+            android:paddingTop="10sp"
+            android:id="@+id/pwd1"
+            android:layout_below="@+id/side"
+            android:backgroundTintMode="screen"
+            android:layout_gravity="center_horizontal" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Having trouble? Contact admin"
+            android:textColor="#FF4B5ECA"
+            android:fontFamily="sans-serif"
+            android:textSize="13dp"
+            android:layout_below="@+id/pwd1"
+            android:layout_toRightOf="@+id/side"
+            android:layout_toEndOf="@+id/side" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+
+            android:text="Login  "
+            android:textAlignment="textEnd"
+            android:layout_gravity="end"
+            android:background="#d9d9d9"
+            android:id="@+id/login"
+            android:transitionName="@string/commonname"
+            android:layout_alignParentBottom="true" />
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:id="@+id/tabview"
+    >
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="69dp"
+        android:src="@drawable/feedback_icon"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:transitionName="@string/commonname1"
+        android:id="@+id/imageView2" />
+   <TextView
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Welcome to A2E App"
+
+       android:gravity="center"
+       android:layout_marginTop="60dp"
+       android:textColor="#000000"
+       android:textSize="25dp"
+       android:fontFamily="sans-serif-smallcaps"
+
+       android:layout_below="@+id/imageView2"
+       android:layout_centerHorizontal="true"
+       android:id="@+id/text1"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Connect to Improve"
+        android:gravity="center"
+        android:layout_marginTop="20dp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif"
+        android:textSize="18dp"
+        android:layout_below="@+id/text1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/text2"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Understand your Students"
+        android:gravity="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#FF33353B"
+        android:fontFamily="monospace"
+        android:textSize="13dp"
+        android:layout_below="@+id/text2"
+        android:layout_centerHorizontal="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="@color/getstarted"
+        android:text="Get Started"
+        android:textColor="#ffff"
+        android:typeface="monospace"
+        android:textSize="20dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:onClick="start"
+        android:transitionName="@string/commonname"
+        android:id="@+id/button1" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/acharya"
+        android:layout_toEndOf="@+id/imageView2"
+        android:paddingRight="10dp"
+        android:layout_toRightOf="@+id/imageView2"
+        android:layout_alignParentTop="true" />
+
+
+</RelativeLayout>

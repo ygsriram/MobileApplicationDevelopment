@@ -1,0 +1,21 @@
+<html>
+<head><title> Entry Form </title></head>
+<body>
+<form>
+sid:<br/>
+<input type="text" name="sid"></br>
+name:<br/>
+<input type="text" name="name"></br>
+dept:<br/>
+<input type="text" name="dept"></br>
+email:<br/>
+<input type="text" name="email"></br>
+mobno:<br/>
+<input type="text" name="mobno"></br>
+sem:<br/>
+<input type="text" name="sem"></br>
+sec:<br/>
+<input type="text" name="sec"></br>
+</form>
+</body>
+</html>
